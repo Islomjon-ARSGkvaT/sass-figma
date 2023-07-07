@@ -1,0 +1,74 @@
+header {
+  background: #f8f9ff;
+  nav.container {
+    padding-top: 25.5px;
+    margin: 0 auto;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .nabar {
+      align-items: center;
+      display: flex;
+      gap: 60px;
+      ul {
+        display: flex;
+        gap: 48px;
+        li a {
+          font-weight: 400;
+          line-height: 155%;
+          letter-spacing: -0.54px;
+          color: #434959;
+        }
+      }
+    }
+    .navi {
+      a {
+        color: $color-gray;
+        cursor: move;
+      }
+      button {
+        @include btn(
+          180px,
+          56px,
+          18px,
+          10px,
+          16px 40px,
+          $color-white,
+          $bac_color-blue
+        );
+        margin-left: 32px;
+      }
+    }
+  }
+  #Home {
+    padding-top: 64px;
+    display: flex;
+    gap: 43px;
+    .home-tex {
+      h1 {
+        margin: 166px auto 24px 0;
+        max-width: 640px;
+        font-size: 56px;
+        line-height: 120%;
+        font-weight: 700;
+      }
+      p {
+        width: 624px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        margin-bottom: 40px;
+      }
+      .store {
+        display: flex;
+        gap: 32px;
+        .image {
+          width: 190px;
+        }
+      }
+    }
+  }
+}

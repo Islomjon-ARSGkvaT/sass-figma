@@ -1,0 +1,18 @@
+$bac_color-blue: #0066ff;
+$color-blac: #282938;
+$color-gray: #505056;
+$color-white: #fff;
+
+@font-face {
+  font-family: "Rubik";
+  src: url(../assets/font-femly/Rubik/Rubik-VariableFont_wght.ttf);
+}
+@mixin btn($width,$heigiht,$font-s,$bor-r,$padding, $color:#f84646, $text-color:#201b1b) {
+  width: $width;
+  height: $heigiht;
+  font-size: $font-s;
+  border-radius: $bor-r;
+  padding: $padding;
+  color: $color;
+  background:  $text-color;
+}
